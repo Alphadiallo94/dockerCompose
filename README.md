@@ -40,7 +40,7 @@ services: //Les services ne sont en réalité que des conteneurs. Dans notre cas
 volumes:
     db-volume:   //Enfin, je demande au moteur Docker de me créer un volume nommé db-volume, c'est le volume pour stocker les données de notre base de donné
 
-Placez vous au niveau du dossier qui contient le fichier docker-compose.yml. Ensuite lancez la commande suivante pour exécuter les services du docker-compose.yml :
+Placez vous au niveau du dossier qui contient le fichier docker-compose.yml. Ensuite lancez la commande suivante pour exécuter les services du docker-compose.yml :;
 docker-compose up -d
 
 
